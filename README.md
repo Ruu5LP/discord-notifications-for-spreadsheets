@@ -16,6 +16,7 @@ This script sends a notification to a Discord channel when specific cells in a G
 - **TARGET_SPREADSHEET_ID**: Set this variable to the ID of the target Google Sheets document (if needed for future use).
 
 # Usage
+- This script is designed to be used with Google Apps Script (GAS) in a Google Sheets document.
 - Ensure the script is attached to a Google Sheets document.
 - The script will automatically trigger whenever an edit is made in the sheet.
 - The webhook URL must be set correctly to send notifications to the desired Discord channel.
